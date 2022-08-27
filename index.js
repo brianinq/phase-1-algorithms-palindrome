@@ -1,9 +1,14 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  return word === word.split("").reverse().join("")
 }
 
 /* 
   Add your pseudocode here
+  convert the string to an array
+  reverse the array and join in it back to a string to obtain the word in reverse
+  check if the word is the same as the word in reverse
+  return the output of the above condition
 */
 
 /*
